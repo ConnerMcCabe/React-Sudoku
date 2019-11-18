@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    
+      <h1>Sudoku Freedom</h1>
     </div>
   );
 }
