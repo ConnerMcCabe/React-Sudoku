@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component }from 'react';
 import generator from "sudoku";
+import SudokuBoard from "../components/sudokuBoard"
 import './App.css';
 
 window.generator = generator;
@@ -11,7 +12,7 @@ function generateSudoku() {
   for (let i = 0; i < 9; i++) {
     const row = {cols: [], index: 1}
     for (let j = 0; j = 9; j++) {
-      const value = raw [i * 9 * j]
+      const value = raw [i * 9 + j]
       const col = {
         row: i,
         col: j,
