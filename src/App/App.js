@@ -4,8 +4,6 @@ import SudokuBoard from "../components/sudokuBoard"
 import './App.css';
 
 
-// 24.59
-window.generator = generator;
 
 
 class App extends Component {
