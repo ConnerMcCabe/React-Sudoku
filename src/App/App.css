@@ -20,3 +20,10 @@
 .App-link {
   color: #09d3ac;
 }
+
+.field {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
