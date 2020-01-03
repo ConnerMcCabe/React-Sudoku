@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 
 export default class SudokuField extends Component {
-  
+  handleChange = e => {
+    const value = value === "" ? null : parseInt(e.target.value, 10);
+    this.props.onChange({ ...this.props.field, value: value });
+  }
   
   render() {
     const { field } = this.props;
     return (
-      <input />
+      <input 
+        className="field"
+        onChange={this.handleChange}
+        value={field.value || ""}
+      />
     )
   }
 }

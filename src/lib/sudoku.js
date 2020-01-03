@@ -10,8 +10,8 @@ export function generateSudoku() {
 
   for (let i = 0; i < 9; i++) {
     const row = {cols: [], index: 1}
-    for (let j = 0; j = 9; j++) {
-      const value = raw [i * 9 + j]
+    for (let j = 0; j < 9; j++) {
+      const value = raw[i * 9 + j]
       const col = {
         row: i,
         col: j,

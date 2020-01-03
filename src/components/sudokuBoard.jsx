@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import SudokuField from "./sudokuField";
 
 export default class SudokuBoard extends Component {
