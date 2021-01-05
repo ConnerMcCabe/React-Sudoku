@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-Header">
-         <h1>Sudoku</h1>
+          <h1>Sudoku</h1>
         </header>
         <SudokuBoard sudoku={this.state.sudoku}/>
       </div>
